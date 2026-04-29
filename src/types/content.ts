@@ -26,7 +26,7 @@ export interface Chunk {
 }
 
 export interface Module {
-  id: number;
+  id: string;
   module: string;
   course: string;
   type: ModuleType;
