@@ -3,11 +3,13 @@ import {
   doc,
   getDoc,
   getDocs,
+  setDoc,
   type FirestoreDataConverter,
   type QueryDocumentSnapshot,
 } from "firebase/firestore";
 import { db } from "./firebase";
 import type { Module } from "../types/content";
+import type { UserProgress } from "../types/progress";
 
 const moduleConverter: FirestoreDataConverter<Module> = {
   toFirestore: (module: Module) => {
@@ -41,4 +43,31 @@ export const getAllModules = async (): Promise<Module[]> => {
   const snapshot = await getDocs(ref);
 
   return snapshot.docs.map((doc) => doc.data());
+};
+
+export const saveProgress = async (
+  userId: string,
+  moduleId: string,
+  chunkId: number,
+  progress: Partial<UserProgress>,
+) => {
+  const ref = doc(db, "users", userId, "progress", `${moduleId}_${chunkId}`);
+
+  await setDoc(
+    ref,
+    {
+      ...progress,
+      userId,
+      moduleId,
+      chunkId,
+    },
+    { merge: true },
+  );
+};
+
+export const getProgress = async (userId: string, moduleId: string) => {
+  const ref = doc(db, "users", userId, "progress", moduleId);
+  const snap = await getDoc(ref);
+
+  return snap.exists() ? (snap.data() as UserProgress) : null;
 };
