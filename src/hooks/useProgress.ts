@@ -9,13 +9,22 @@ export const useProgress = (moduleId: string) => {
 
   const query = useQuery({
     queryKey: ["progress", user?.uid, moduleId],
-    queryFn: () => getProgress(user!.uid, moduleId),
-    enabled: !!user, // only runs when user is logged in
+    queryFn: () => {
+      if (!user) throw new Error("No authenticated user");
+      return getProgress(user.uid, moduleId);
+    },
+    enabled: !!user && !!moduleId,
   });
 
   const mutation = useMutation({
-    mutationFn: (data: { chunkId: number; progress: Partial<UserProgress> }) =>
-      saveProgress(user!.uid, moduleId, data.chunkId, data.progress),
+    mutationFn: (data: {
+      chunkId: number;
+      progress: Partial<UserProgress>;
+    }) => {
+      if (!user) throw new Error("No authenticated user");
+
+      return saveProgress(user.uid, moduleId, data.chunkId, data.progress);
+    },
     onSuccess: () => {
       queryClient.invalidateQueries({
         queryKey: ["progress", user?.uid, moduleId],
@@ -23,5 +32,9 @@ export const useProgress = (moduleId: string) => {
     },
   });
 
-  return { ...query, saveProgress: mutation.mutate };
+  return {
+    ...query,
+    saveProgress: mutation.mutate,
+    isSaving: mutation.isPending,
+  };
 };
