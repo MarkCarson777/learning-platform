@@ -1,9 +1,12 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, redirect } from "@tanstack/react-router";
+import { LoginPage } from "../features/auth/LoginPage";
+import { auth } from "../services/firebase";
 
-export const Route = createFileRoute('/login')({
-  component: RouteComponent,
-})
-
-function RouteComponent() {
-  return <div>Hello "/login"!</div>
-}
+export const Route = createFileRoute("/login")({
+  beforeLoad: () => {
+    if (auth.currentUser) {
+      throw redirect({ to: "/library" });
+    }
+  },
+  component: LoginPage,
+});
