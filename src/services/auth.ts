@@ -13,7 +13,7 @@ export const signInWithGoogle = async () => {
   signInWithPopup(auth, provider);
 };
 
-export const singOutUser = () => signOut(auth);
+export const signOutUser = () => signOut(auth);
 
 export const onAuthChange = (callback: (user: User | null) => void) =>
   onAuthStateChanged(auth, callback);
