@@ -1,9 +1,11 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute('/_protected/study/$moduleId')({
-  component: RouteComponent,
-})
+export const Route = createFileRoute("/_protected/study/$moduleId")({
+  component: StudyPage,
+});
 
-function RouteComponent() {
-  return <div>Hello "/_protected/study/$moduleId"!</div>
+function StudyPage() {
+  const { moduleId } = Route.useParams();
+
+  return <div>Study: {moduleId}</div>;
 }
