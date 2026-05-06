@@ -15,7 +15,7 @@ export const Navbar = () => {
 
   return (
     <nav>
-      <Link to="/library">Home</Link>
+      <Link to="/dashboard">Home</Link>
       {user && <Button onClick={handleSignOut}>Sign out</Button>}
     </nav>
   );

@@ -2,6 +2,8 @@
   "module": "Course Introduction",
   "course": "Level 3 PT Diploma",
   "type": "orientation",
+  "moduleGroup": "course-introduction",
+  "moduleGroupOrder": 1,
   "chunks": [
     {
       "id": 1,

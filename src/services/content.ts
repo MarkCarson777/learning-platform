@@ -21,12 +21,14 @@ const moduleConverter: FirestoreDataConverter<Module> = {
       course: data.course,
       type: data.type,
       chunks: data.chunks,
+      moduleGroup: data.moduleGroup,
+      moduleGroupOrder: data.moduleGroupOrder,
     };
   },
 };
 
 export const getModule = async (moduleId: string): Promise<Module> => {
-  const ref = doc(db, "nodules", moduleId).withConverter(moduleConverter);
+  const ref = doc(db, "modules", moduleId).withConverter(moduleConverter);
   const snapshot = await getDoc(ref);
 
   if (!snapshot.exists()) {

@@ -10,7 +10,7 @@ export const LoginPage = () => {
 
   useEffect(() => {
     if (!loading && user) {
-      navigate({ to: "/library" });
+      navigate({ to: "/dashboard" });
     }
   }, [user, loading, navigate]);
 

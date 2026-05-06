@@ -2,6 +2,8 @@
   "module": "Principles of Health and Wellbeing",
   "course": "Level 3 PT Diploma",
   "type": "unit_introduction",
+  "moduleGroup": "principles-of-health-and-wellbeing",
+  "moduleGroupOrder": 1,
   "note": "This is a short navigation and orientation video. There is no teaching content — that comes in the unit webinars.",
   "chunks": [
     {

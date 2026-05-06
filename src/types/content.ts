@@ -31,4 +31,6 @@ export interface Module {
   course: string;
   type: ModuleType;
   chunks: Chunk[];
+  moduleGroup?: string;
+  moduleGroupOrder?: number;
 }

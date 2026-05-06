@@ -3,6 +3,8 @@
   "video": "Unit 2 Webinar — main teaching content",
   "course": "Level 3 PT Diploma",
   "type": "teaching_content",
+  "moduleGroup": "principles-of-health-and-wellbeing",
+  "moduleGroupOrder": 2,
   "sections": 7,
   "chunks": [
     {
