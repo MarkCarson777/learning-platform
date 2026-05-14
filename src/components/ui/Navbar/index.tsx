@@ -14,7 +14,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav>
+    <nav className="flex justify-between items-center">
       <Link to="/dashboard">Home</Link>
       {user && <Button onClick={handleSignOut}>Sign out</Button>}
     </nav>

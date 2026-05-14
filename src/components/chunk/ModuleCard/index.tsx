@@ -1,14 +1,28 @@
 import { Link } from "@tanstack/react-router";
-import type { Module } from "../../../types/content";
 
-type ModuleCardProps = {
-  module: Module;
-};
+export const ModuleCard = ({ group }) => {
+  console.log("group", group);
 
-export const ModuleCard: React.FC<ModuleCardProps> = ({ module }) => {
+  const ModuleNameMap = {
+    "course-introduction": "Course Introduction",
+    "the-foundations": "The Foundations",
+  };
+
   return (
-    <Link to="/study/$moduleId" params={{ moduleId: module.id }}>
-      <h2>{module.module}</h2>
-    </Link>
+    <div className="border border-gray-200 rounded-md p-4">
+      <h2 className="text-red-500">{ModuleNameMap[group.groupId]}</h2>
+      <div className="flex flex-col gap-2">
+        {group.modules.map((module) => (
+          <Link
+            className="bg bg-gray-200 rounded-md p-4"
+            key={module.id}
+            to="/study/$moduleId"
+            params={{ moduleId: module.id }}
+          >
+            {module.module}
+          </Link>
+        ))}
+      </div>
+    </div>
   );
 };
