@@ -14,7 +14,7 @@ import { Route as ProtectedRouteRouteImport } from './routes/_protected/route'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ProtectedDashboardIndexRouteImport } from './routes/_protected/dashboard/index'
 import { Route as ProtectedStudyUnitIdRouteImport } from './routes/_protected/study/$unitId'
-import { Route as ProtectedFlashcardsModuleIdRouteImport } from './routes/_protected/flashcards/$moduleId'
+import { Route as ProtectedFlashcardsUnitIdRouteImport } from './routes/_protected/flashcards/$unitId'
 
 const LoginRoute = LoginRouteImport.update({
   id: '/login',
@@ -40,24 +40,24 @@ const ProtectedStudyUnitIdRoute = ProtectedStudyUnitIdRouteImport.update({
   path: '/study/$unitId',
   getParentRoute: () => ProtectedRouteRoute,
 } as any)
-const ProtectedFlashcardsModuleIdRoute =
-  ProtectedFlashcardsModuleIdRouteImport.update({
-    id: '/flashcards/$moduleId',
-    path: '/flashcards/$moduleId',
+const ProtectedFlashcardsUnitIdRoute =
+  ProtectedFlashcardsUnitIdRouteImport.update({
+    id: '/flashcards/$unitId',
+    path: '/flashcards/$unitId',
     getParentRoute: () => ProtectedRouteRoute,
   } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/login': typeof LoginRoute
-  '/flashcards/$moduleId': typeof ProtectedFlashcardsModuleIdRoute
+  '/flashcards/$unitId': typeof ProtectedFlashcardsUnitIdRoute
   '/study/$unitId': typeof ProtectedStudyUnitIdRoute
   '/dashboard/': typeof ProtectedDashboardIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/login': typeof LoginRoute
-  '/flashcards/$moduleId': typeof ProtectedFlashcardsModuleIdRoute
+  '/flashcards/$unitId': typeof ProtectedFlashcardsUnitIdRoute
   '/study/$unitId': typeof ProtectedStudyUnitIdRoute
   '/dashboard': typeof ProtectedDashboardIndexRoute
 }
@@ -66,7 +66,7 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/_protected': typeof ProtectedRouteRouteWithChildren
   '/login': typeof LoginRoute
-  '/_protected/flashcards/$moduleId': typeof ProtectedFlashcardsModuleIdRoute
+  '/_protected/flashcards/$unitId': typeof ProtectedFlashcardsUnitIdRoute
   '/_protected/study/$unitId': typeof ProtectedStudyUnitIdRoute
   '/_protected/dashboard/': typeof ProtectedDashboardIndexRoute
 }
@@ -75,17 +75,17 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/login'
-    | '/flashcards/$moduleId'
+    | '/flashcards/$unitId'
     | '/study/$unitId'
     | '/dashboard/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/login' | '/flashcards/$moduleId' | '/study/$unitId' | '/dashboard'
+  to: '/' | '/login' | '/flashcards/$unitId' | '/study/$unitId' | '/dashboard'
   id:
     | '__root__'
     | '/'
     | '/_protected'
     | '/login'
-    | '/_protected/flashcards/$moduleId'
+    | '/_protected/flashcards/$unitId'
     | '/_protected/study/$unitId'
     | '/_protected/dashboard/'
   fileRoutesById: FileRoutesById
@@ -133,24 +133,24 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProtectedStudyUnitIdRouteImport
       parentRoute: typeof ProtectedRouteRoute
     }
-    '/_protected/flashcards/$moduleId': {
-      id: '/_protected/flashcards/$moduleId'
-      path: '/flashcards/$moduleId'
-      fullPath: '/flashcards/$moduleId'
-      preLoaderRoute: typeof ProtectedFlashcardsModuleIdRouteImport
+    '/_protected/flashcards/$unitId': {
+      id: '/_protected/flashcards/$unitId'
+      path: '/flashcards/$unitId'
+      fullPath: '/flashcards/$unitId'
+      preLoaderRoute: typeof ProtectedFlashcardsUnitIdRouteImport
       parentRoute: typeof ProtectedRouteRoute
     }
   }
 }
 
 interface ProtectedRouteRouteChildren {
-  ProtectedFlashcardsModuleIdRoute: typeof ProtectedFlashcardsModuleIdRoute
+  ProtectedFlashcardsUnitIdRoute: typeof ProtectedFlashcardsUnitIdRoute
   ProtectedStudyUnitIdRoute: typeof ProtectedStudyUnitIdRoute
   ProtectedDashboardIndexRoute: typeof ProtectedDashboardIndexRoute
 }
 
 const ProtectedRouteRouteChildren: ProtectedRouteRouteChildren = {
-  ProtectedFlashcardsModuleIdRoute: ProtectedFlashcardsModuleIdRoute,
+  ProtectedFlashcardsUnitIdRoute: ProtectedFlashcardsUnitIdRoute,
   ProtectedStudyUnitIdRoute: ProtectedStudyUnitIdRoute,
   ProtectedDashboardIndexRoute: ProtectedDashboardIndexRoute,
 }

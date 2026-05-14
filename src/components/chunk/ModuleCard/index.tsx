@@ -1,7 +1,12 @@
 import { Link } from "@tanstack/react-router";
 import { useUnitsByModule } from "../../../hooks/useUnits";
+import type { Module } from "../../../types/content";
 
-export const ModuleCard = ({ module }) => {
+type ModuleCardProps = {
+  module: Module;
+};
+
+export const ModuleCard: React.FC<ModuleCardProps> = ({ module }) => {
   const { data: units } = useUnitsByModule(module.id);
 
   if (!units) return <div>Loading...</div>;

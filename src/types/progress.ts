@@ -5,7 +5,7 @@ export type CardState = "new" | "learning" | "review" | "mastered";
 export interface FlashcardState {
   termId: string;
   chunkId: number;
-  moduleId: string;
+  unitId: string;
   state: CardState;
   interval: number;
   easeFactor: number;
@@ -14,7 +14,7 @@ export interface FlashcardState {
 
 export interface UserProgress {
   userId: string;
-  moduleId: string;
+  unitId: string;
   chunkId: number;
   completedAt: Timestamp;
   flashcardResults: FlashcardResult[];

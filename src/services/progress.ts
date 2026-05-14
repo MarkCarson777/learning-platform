@@ -1,7 +1,10 @@
 import {
+  collection,
   doc,
   setDoc,
-  getDoc,
+  getDocs,
+  query,
+  where,
   type FirestoreDataConverter,
   type DocumentData,
   type QueryDocumentSnapshot,
@@ -17,7 +20,7 @@ const progressConverter: FirestoreDataConverter<UserProgress> = {
     const data = snapshot.data();
     return {
       userId: data.userId,
-      moduleId: data.moduleId,
+      unitId: data.unitId,
       chunkId: data.chunkId,
       completedAt: data.completedAt,
       flashcardResults: data.flashcardResults ?? [],
@@ -27,22 +30,22 @@ const progressConverter: FirestoreDataConverter<UserProgress> = {
 
 export const saveProgress = async (
   userId: string,
-  moduleId: string,
+  unitId: string,
   chunkId: number,
   progress: Partial<UserProgress>,
 ) => {
-  const ref = doc(db, "users", userId, "progress", `${moduleId}_${chunkId}`);
-
-  await setDoc(
-    ref,
-    { userId, moduleId, chunkId, ...progress },
-    { merge: true },
-  );
+  const ref = doc(db, "users", userId, "progress", `${unitId}_${chunkId}`);
+  await setDoc(ref, { userId, unitId, chunkId, ...progress }, { merge: true });
 };
 
-export const getProgress = async (userId: string, moduleId: string) => {
-  const ref = doc(db, "users", userId, "progress", moduleId);
-  const snap = await getDoc(ref);
-
-  return snap.exists() ? (snap.data() as UserProgress) : null;
+export const getProgress = async (
+  userId: string,
+  unitId: string,
+): Promise<UserProgress[]> => {
+  const ref = collection(db, "users", userId, "progress").withConverter(
+    progressConverter,
+  );
+  const q = query(ref, where("unitId", "==", unitId));
+  const snapshot = await getDocs(q);
+  return snapshot.docs.map((doc) => doc.data());
 };

@@ -10,7 +10,7 @@ import { auth } from "./firebase";
 const provider = new GoogleAuthProvider();
 
 export const signInWithGoogle = async () => {
-  signInWithPopup(auth, provider);
+  await signInWithPopup(auth, provider);
 };
 
 export const signOutUser = () => signOut(auth);

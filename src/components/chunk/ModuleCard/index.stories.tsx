@@ -25,7 +25,7 @@ const meta: Meta<typeof ModuleCard> = {
 
       const studyRoute = createRoute({
         getParentRoute: () => rootRoute,
-        path: "/study/$moduleId",
+        path: "/study/$unitId",
         component: () => <div>Study page</div>,
       });
 
@@ -47,11 +47,10 @@ type Story = StoryObj<typeof ModuleCard>;
 export const Default: Story = {
   args: {
     module: {
-      id: "course-introduction",
-      module: "Course Introduction",
-      course: "Level 3 PT Diploma",
-      type: "orientation",
-      chunks: Array(6).fill({}),
+      id: "1",
+      name: "Module 1",
+      order: 1,
+      unitIds: ["1", "2", "3"],
     },
   },
 };

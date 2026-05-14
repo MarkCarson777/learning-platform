@@ -18,7 +18,6 @@ const moduleConverter: FirestoreDataConverter<Module> = {
     return {
       id: snapshot.id,
       name: data.name,
-      courseId: data.courseId,
       order: data.order,
       unitIds: data.unitIds,
     };
@@ -33,7 +32,6 @@ const unitConverter: FirestoreDataConverter<Unit> = {
       id: snapshot.id,
       name: data.name,
       moduleId: data.moduleId,
-      courseId: data.courseId,
       type: data.type,
       order: data.order,
       chunks: data.chunks,
