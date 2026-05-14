@@ -12,7 +12,6 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as LoginRouteImport } from './routes/login'
 import { Route as ProtectedRouteRouteImport } from './routes/_protected/route'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as ProtectedLibraryIndexRouteImport } from './routes/_protected/library/index'
 import { Route as ProtectedDashboardIndexRouteImport } from './routes/_protected/dashboard/index'
 import { Route as ProtectedStudyModuleIdRouteImport } from './routes/_protected/study/$moduleId'
 import { Route as ProtectedFlashcardsModuleIdRouteImport } from './routes/_protected/flashcards/$moduleId'
@@ -30,11 +29,6 @@ const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
-} as any)
-const ProtectedLibraryIndexRoute = ProtectedLibraryIndexRouteImport.update({
-  id: '/library/',
-  path: '/library/',
-  getParentRoute: () => ProtectedRouteRoute,
 } as any)
 const ProtectedDashboardIndexRoute = ProtectedDashboardIndexRouteImport.update({
   id: '/dashboard/',
@@ -59,7 +53,6 @@ export interface FileRoutesByFullPath {
   '/flashcards/$moduleId': typeof ProtectedFlashcardsModuleIdRoute
   '/study/$moduleId': typeof ProtectedStudyModuleIdRoute
   '/dashboard/': typeof ProtectedDashboardIndexRoute
-  '/library/': typeof ProtectedLibraryIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -67,7 +60,6 @@ export interface FileRoutesByTo {
   '/flashcards/$moduleId': typeof ProtectedFlashcardsModuleIdRoute
   '/study/$moduleId': typeof ProtectedStudyModuleIdRoute
   '/dashboard': typeof ProtectedDashboardIndexRoute
-  '/library': typeof ProtectedLibraryIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -77,7 +69,6 @@ export interface FileRoutesById {
   '/_protected/flashcards/$moduleId': typeof ProtectedFlashcardsModuleIdRoute
   '/_protected/study/$moduleId': typeof ProtectedStudyModuleIdRoute
   '/_protected/dashboard/': typeof ProtectedDashboardIndexRoute
-  '/_protected/library/': typeof ProtectedLibraryIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -87,7 +78,6 @@ export interface FileRouteTypes {
     | '/flashcards/$moduleId'
     | '/study/$moduleId'
     | '/dashboard/'
-    | '/library/'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -95,7 +85,6 @@ export interface FileRouteTypes {
     | '/flashcards/$moduleId'
     | '/study/$moduleId'
     | '/dashboard'
-    | '/library'
   id:
     | '__root__'
     | '/'
@@ -104,7 +93,6 @@ export interface FileRouteTypes {
     | '/_protected/flashcards/$moduleId'
     | '/_protected/study/$moduleId'
     | '/_protected/dashboard/'
-    | '/_protected/library/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -136,13 +124,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/_protected/library/': {
-      id: '/_protected/library/'
-      path: '/library'
-      fullPath: '/library/'
-      preLoaderRoute: typeof ProtectedLibraryIndexRouteImport
-      parentRoute: typeof ProtectedRouteRoute
-    }
     '/_protected/dashboard/': {
       id: '/_protected/dashboard/'
       path: '/dashboard'
@@ -171,14 +152,12 @@ interface ProtectedRouteRouteChildren {
   ProtectedFlashcardsModuleIdRoute: typeof ProtectedFlashcardsModuleIdRoute
   ProtectedStudyModuleIdRoute: typeof ProtectedStudyModuleIdRoute
   ProtectedDashboardIndexRoute: typeof ProtectedDashboardIndexRoute
-  ProtectedLibraryIndexRoute: typeof ProtectedLibraryIndexRoute
 }
 
 const ProtectedRouteRouteChildren: ProtectedRouteRouteChildren = {
   ProtectedFlashcardsModuleIdRoute: ProtectedFlashcardsModuleIdRoute,
   ProtectedStudyModuleIdRoute: ProtectedStudyModuleIdRoute,
   ProtectedDashboardIndexRoute: ProtectedDashboardIndexRoute,
-  ProtectedLibraryIndexRoute: ProtectedLibraryIndexRoute,
 }
 
 const ProtectedRouteRouteWithChildren = ProtectedRouteRoute._addFileChildren(

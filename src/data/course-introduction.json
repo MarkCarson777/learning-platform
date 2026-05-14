@@ -1,0 +1,144 @@
+{
+  "module": {
+    "id": "course-introduction",
+    "name": "Course Introduction",
+    "order": 1
+  },
+  "units": [
+    {
+      "id": "course-introduction",
+      "name": "Course Introduction",
+      "order": 1,
+      "chunks": [
+        {
+          "id": 1,
+          "title": "Level 2 gym instructor — role and skills",
+          "difficulty": "foundation",
+          "concept": "The level 2 plays a huge part in customer experience and membership retention. Key roles include: motivating clients to adhere to exercise and long-term programmes, conducting pre-exercise screening, fitness assessments and consultations, showing clients how to use equipment safely and effectively, providing sound exercise demonstrations, referring clients to other healthcare professionals where necessary, planning safe and effective exercise programmes, providing alternative exercises, and building rapport with members. The tutor explicitly says not to view the level 2 as subpar — it is the foundation of what makes a good PT.",
+          "key_terms": [
+            "pre-exercise screening",
+            "membership retention",
+            "safe and effective",
+            "referral",
+            "rapport"
+          ],
+          "tutor_quote": "Safe and effective — they're going to pop up all the time. You're going to be bored of hearing me say them, but those are the main foundations of your level two.",
+          "actions": [],
+          "materials": ["Gym equipment", "Anatomy and physiology knowledge"]
+        },
+        {
+          "id": 2,
+          "title": "Level 3 PT — role and skills",
+          "difficulty": "foundation",
+          "concept": "As a PT you need to: design effective programmes tailored to individual goals, fitness levels and exercise preferences (not cookie-cutter); conduct strong consultations gaining information the client may never have shared before; carry out health screening, fitness assessments, and body fat calipers; coach clients one-to-one; motivate clients to build long-term adherence, confidence and positive behaviour change; apply periodisation programming, exercise delivery, biomechanics and levers; provide nutritional guidance within scope of practice; programme clients on days they are not with you; monitor progress through regular reviews and SMART goals; and refer clients when something falls outside your scope.",
+          "key_terms": [
+            "periodisation",
+            "SMART goals",
+            "behaviour change",
+            "biomechanics",
+            "scope of practice",
+            "adherence"
+          ],
+          "tutor_quote": "You're almost doing a qualification to become a therapist as much as you are to becoming a PT.",
+          "actions": [],
+          "materials": ["Body fat calipers", "Fitness assessment tools"]
+        },
+        {
+          "id": 3,
+          "title": "Course structure — 7 modules, 10 units",
+          "difficulty": "foundation",
+          "concept": "The diploma has 10 units grouped into 7 modules. Work through one module at a time. Units: Principles, Know how to support (exercise and physical activity), Health and safety, Planning professional practice (consultations and assessments), Instructing professional practice, Nutritional principles for PTs, PT programme design, Delivering exercise programmes for PT clients, Business Acumen. Assessment methods vary: portfolio submissions, quizzes, online exams, and practical coaching video submissions depending on the module.",
+          "key_terms": [
+            "portfolio submission",
+            "online exam",
+            "business acumen",
+            "nutritional principles"
+          ],
+          "tutor_quote": null,
+          "actions": [
+            "Download the business acumen document early — chip away at it alongside other modules rather than leaving it to the end"
+          ],
+          "materials": [
+            "Online learning platform",
+            "Google Docs portfolios",
+            "Business acumen document"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Submitting portfolios — Google Docs workflow",
+          "difficulty": "foundation",
+          "concept": "Watch the webinar, lift the information into your own words, and put it into the portfolio. Open the portfolio link on the platform, click Make a copy. Fill in the yellow boxes. To submit: click Share, change general access from Restricted to Anyone with the link, change role from Viewer to Editor so the tutor can write marking notes. Copy the link and paste into the portfolio submission form on the platform — this triggers a Notion notification for the tutor. Do not email portfolios. Prefer Google Docs over Microsoft Word to avoid duplicate versions in circulation. If using Word, use the official Microsoft Word version only — free online alternatives break the formatting and marking notes.",
+          "key_terms": [
+            "Google Docs",
+            "editor access",
+            "portfolio submission link",
+            "Notion"
+          ],
+          "tutor_quote": null,
+          "actions": [
+            "Click Make a copy — do not edit the master document",
+            "Change sharing to Anyone with the link AND change role to Editor before submitting",
+            "Paste the link into the portfolio submission form on the platform — do not email it"
+          ],
+          "materials": [
+            "Gmail / Google account",
+            "Portfolio submission form (platform)"
+          ],
+          "warnings": [
+            "If submitted as Viewer only, the tutor cannot add marking notes",
+            "Free online Word alternatives break the formatting — use official Microsoft Word only"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Remote coaching video submissions",
+          "difficulty": "intermediate",
+          "concept": "Throughout the course there are practical coaching video submissions uploaded to a shared Google Drive link. Exercises include: one piece of CV equipment, two free weights exercises (one requiring spotting, one a hip-hinge such as a dumbbell RDL), and fixed machines such as a seated row or chest press. Videos can be separate clips for the practice submissions. The final assessment must be one long continuous video of 45–60 minutes where you and your client must stay in frame throughout. The tutor reviews footage and gives video feedback on technique, positioning and cues.",
+          "key_terms": [
+            "hip-hinge",
+            "dumbbell RDL",
+            "spotting",
+            "base of support",
+            "coaching cues"
+          ],
+          "tutor_quote": null,
+          "actions": [
+            "Ask your gym for permission to film before starting — explain it is for an educational qualification",
+            "Check phone storage before the final 45–60 minute continuous assessment — students have lost recordings halfway through by running out of space"
+          ],
+          "errors_shown_in_transcript": [
+            "Narrow foot stance on a dumbbell row — a wider base gives more stability",
+            "Entering the squat rack facing backwards — flagged as a health and safety issue"
+          ],
+          "materials": [
+            "Smartphone",
+            "Tripod",
+            "Microphone / audio device",
+            "Google Drive",
+            "CV machine",
+            "Dumbbells",
+            "Squat rack",
+            "Seated row / chest press machine"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "CPD pathways after level 3",
+          "difficulty": "foundation",
+          "concept": "CPD options mentioned: the Advanced PT Diploma, Level 4 in Nutrition for weight management and athletic performance, Level 3 and 4 in Sports Massage Therapy (keeps clients in-house rather than referring out, improves revenue), and other specialist qualifications. Tutor advice: get the level 3 done, start working with clients, discover what you enjoy before choosing a CPD direction — do not go headfirst into a specialism before working with real clients.",
+          "key_terms": [
+            "CPD",
+            "sports massage",
+            "scope of practice",
+            "nutrition for weight management"
+          ],
+          "tutor_quote": null,
+          "actions": [],
+          "materials": ["Aventus CPD catalogue"],
+          "note": "This section of the transcript is brief — no further detail given beyond what is listed above."
+        }
+      ]
+    }
+  ]
+}

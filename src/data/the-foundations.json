@@ -1,0 +1,470 @@
+{
+  "module": {
+    "id": "the-foundations",
+    "name": "The Foundations",
+    "order": 2
+  },
+  "units": [
+    {
+      "id": "principles-health-wellbeing-intro",
+      "name": "Principles of Health and Wellbeing Introduction",
+      "order": 1,
+      "chunks": [
+        {
+          "id": 1,
+          "title": "Unit aim and 7 learning outcomes",
+          "difficulty": "foundation",
+          "concept": "The aim of this unit is to develop a thorough understanding of exercise's impact on the body, the principles of fitness, and health promotion — enabling learners to design safe and effective programmes and advocate healthy lifestyles through physical activity and nutrition.",
+          "learning_outcomes": [
+            "Understand the effects of exercise on the body",
+            "Understand the components of fitness",
+            "Apply principles and variables to a fitness programme",
+            "Understand exercise contraindications and key safety guidelines for special populations",
+            "Monitor safe exercise intensity",
+            "Understand the health benefits of physical activity and a healthy lifestyle",
+            "Understand the importance of healthy eating"
+          ],
+          "key_terms": [
+            "principles of fitness",
+            "health promotion",
+            "contraindications",
+            "special populations",
+            "safe and effective"
+          ],
+          "actions": [],
+          "materials": []
+        },
+        {
+          "id": 2,
+          "title": "Why this unit matters — as stated in transcript",
+          "difficulty": "foundation",
+          "concept": "The tutor lists these reasons directly — understanding this unit helps to: produce precise goal setting and identify client goals from mixed messages; effectively structure a session plan; protect clients from injury or potential health complications; produce client education on impacts of fitness and health outcomes; produce long-term health benefits and long-term behavioural change; provide appropriate intensities and ways to measure them; spread healthy eating knowledge. Unless you can explain things confidently to a client it does not bode much merit and you risk losing client confidence.",
+          "key_terms": [
+            "goal setting",
+            "session plan",
+            "client education",
+            "behavioural change",
+            "exercise intensity"
+          ],
+          "tutor_quote": "Unless we can fully explain that to a client in a really confident and competent manner, then it really doesn't bode much merit.",
+          "actions": [],
+          "materials": [],
+          "note": "These points are listed only in this video — no further detail given. Teaching content is in the unit webinars."
+        },
+        {
+          "id": 3,
+          "title": "How to work through this unit",
+          "difficulty": "foundation",
+          "concept": "Structured sequence given by tutor for working through the unit.",
+          "key_terms": [
+            "learner declaration",
+            "portfolio submission",
+            "plagiarism policy",
+            "Google Docs",
+            "editor access"
+          ],
+          "actions": [
+            "Tick off the introductory video (this one)",
+            "Download the unit portfolio from the platform — it is the next section after this video",
+            "Read and sign the portfolio information / learner declaration",
+            "Watch the unit webinars — complete each portfolio section as you progress through the matching webinar section",
+            "Use the platform quizzes to test knowledge and identify strengths and weaknesses",
+            "Submit the completed portfolio via Google Docs link set to Editor access",
+            "Drop questions into live Q&A sessions or email — recorded versions available if you cannot attend live"
+          ],
+          "materials": [
+            "Principles unit portfolio (Google Docs)",
+            "Unit webinars (platform)",
+            "Platform quizzes",
+            "Gmail / Google account"
+          ],
+          "warnings": [
+            "Webinar sections link directly to portfolio learning outcomes — match them up so you do not get lost jumping around the document",
+            "Learner declaration requires confirming plagiarism risks understood and no AI was used"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Portfolio question formats — examples from transcript",
+          "difficulty": "intermediate",
+          "concept": "The tutor walks through the portfolio on screen showing different question types. Feedback boxes within the portfolio are left blank by the learner — the tutor fills these with marking notes after submission.",
+          "key_terms": [
+            "cardiovascular adaptations",
+            "respiratory adaptations",
+            "aerobic training",
+            "blood pooling",
+            "components of fitness"
+          ],
+          "question_types": [
+            {
+              "type": "describe (written answer)",
+              "example": "Describe cardiovascular and respiratory adaptations to endurance/aerobic training",
+              "tutor_guidance": "Present detailed information about the subject with reason showing how or why it is included"
+            },
+            {
+              "type": "fill-in-the-blank (drag and drop)",
+              "example": "Blood pooling refers to blood ___"
+            },
+            {
+              "type": "definition + why",
+              "example": "Define the five health-related components of fitness"
+            },
+            {
+              "type": "feedback box",
+              "example": "Left blank by learner — tutor fills in after marking"
+            }
+          ],
+          "actions": [],
+          "materials": ["Principles portfolio"],
+          "note": "Actual answers to these questions are not given in this video — they are covered in the unit webinars."
+        }
+      ]
+    },
+    {
+      "id": "principles-health-wellbeing-webinar",
+      "name": "Principles of Health and Wellbeing Webinar",
+      "order": 2,
+      "chunks": [
+        {
+          "id": 1,
+          "section": "Section 1",
+          "title": "Effects of exercise on the body",
+          "difficulty": "foundation",
+          "concept": "Exercise produces both short term and long term adaptations. Short term responses to aerobic exercise: increased heart rate, increased blood pressure, increased breathing rate — these return to normal when exercise ceases. Long term adaptations from regular aerobic/endurance training include: increased stroke volume (more blood per heartbeat), increased cardiac output (more blood per minute), decreased resting heart rate, improved blood profile (increased red blood cells and plasma), decreased blood pressure (systolic and diastolic), slight increase in heart size, higher minute ventilation rate, improved oxygen extraction from blood, and increased VO2 max.",
+          "key_terms": [
+            "stroke volume",
+            "cardiac output",
+            "resting heart rate",
+            "VO2 max",
+            "minute ventilation",
+            "blood plasma",
+            "systolic",
+            "diastolic"
+          ],
+          "sub_topics": [
+            {
+              "name": "Valsalva manoeuvre",
+              "content": "Involves exhaling against a closed airway — provides strength and stability for heavy lifts (e.g. deadlift, squat) but causes a temporary blood pressure increase. Dangerous for those with high blood pressure or at risk of stroke or heart attack. If clients are holding their breath during heavy lifts or isometrics (e.g. plank), encourage exhaling during the exertion phase to avoid blood pressure spikes."
+            },
+            {
+              "name": "Blood pooling",
+              "content": "Abruptly stopping a workout can cause blood pooling in the lower limbs, leading to pain, swelling, dizziness or fainting. A gradual cool down helps return heart rate to near resting level and promotes efficient blood flow back to the heart."
+            },
+            {
+              "name": "Effects on bone",
+              "content": "Weight bearing exercises such as jogging encourage greater bone mineral density than non-weight bearing exercises, due to an increased number of osteoblasts. Important particularly for older clients to reduce risk of osteoporosis later in life."
+            },
+            {
+              "name": "Effects on muscle",
+              "content": "Training can influence the type of muscle fibre developed (type 1 or type 2). Short term muscular adaptations: increased metabolic activity, increased blood flow, increased enzyme activity, increased nutrient transportation, increased energy production. Long term: increased muscle size, increased frequency/efficiency of muscle fibres, increased neuromuscular response, increased number of fibres recruited, increased coordination, increased capillary density, increased blood supply to muscle tissue. Adaptations require progressive overload, sufficient nutrition and recovery."
+            },
+            {
+              "name": "Effects on posture and joints",
+              "content": "Training correctly enhances joint stability and strengthens tendons and ligaments. Repetitive exercises like plyometrics can cause wear and tear if done incorrectly. To protect joints: wear well fitted impact-absorbing shoes, maintain healthy body weight to reduce joint stress, follow a nutrient rich diet. Incorrect technique can harm posture — always correct poor form such as a rounded back during deadlifts or improper positioning on an exercise bike."
+            },
+            {
+              "name": "Deadlift form example",
+              "content": "If the barbell creeps too far in front of the torso and away from the shin, it increases torque and pressure on the lower back. The closer the barbell is to the centre of mass, the more stable the lifter. If you see dangerous form repeatedly, go and have the discussion — a new member may have had no instruction and an injury could stop them attending permanently."
+            },
+            {
+              "name": "Kyphosis",
+              "content": "An increased curvature of the thoracic spine causing a hunched position. More common in desk workers who sit for long periods. Resistance training focus: strengthen lower traps, rhomboids, and deep neck flexors. Flexibility/mobility focus: pec major, pec minor, and thoracic extension mobility. The tutor notes this is almost level 3 standard content."
+            },
+            {
+              "name": "Lordosis",
+              "content": "Excessive anterior pelvic tilt — the tutor describes it as 'sticking out your bum, walking around like a lord.' Common in a large percentage of the population, not always problematic unless causing lower back pain. Resistance training focus: strengthen glute max and trunk (transverse abdominis, rectus abdominis). Flexibility/mobility focus: hip flexors, particularly rectus femoris and iliopsoas (psoas), and erector spinae."
+            },
+            {
+              "name": "DOMS",
+              "content": "Delayed Onset Muscle Soreness. The tutor states: 'We don't really know what causes DOMS — there are multiple different factors at play.' Possible causes listed: lactic acid accumulation, muscle spasm, connective tissue damage, muscle damage, inflammation. Can last 24 to 72 hours. More prevalent in new exercises and predominantly lower body. Advise clients it is a normal part of training, particularly in the first few weeks or with new exercises. To minimise DOMS with new clients or new movements: use lighter resistance, fewer reps, and finish with reps in reserve rather than going to failure."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "section": "Section 2",
+          "title": "Components of fitness",
+          "difficulty": "foundation",
+          "concept": "The components of fitness are essential elements that define an individual's physical capabilities and overall health. Understanding them helps in designing targeted training programmes.",
+          "key_terms": [
+            "cardiovascular fitness",
+            "muscular strength",
+            "muscular endurance",
+            "flexibility",
+            "body composition",
+            "power",
+            "agility",
+            "balance",
+            "coordination",
+            "reaction time",
+            "speed"
+          ],
+          "sub_topics": [
+            {
+              "name": "5 health-related components of fitness",
+              "content": "1. Cardiovascular fitness — ability to sustain exercise for extended periods at low to moderate intensities; reflects how efficiently the body delivers oxygen to and removes CO2 from the bloodstream. 2. Muscular strength — the amount of force a muscle can exert against a resistance. 3. Muscular endurance — ability for a muscle group to engage repetitively over an extended period. 4. Flexibility — ability to safely take a joint through its full range of motion. 5. Body composition — the proportion of fat, muscle, bone and other tissue that makes up the human body."
+            },
+            {
+              "name": "6 skill-related components of fitness",
+              "content": "1. Power — combination of speed and strength; not just how much weight but the speed and explosiveness. 2. Agility — ability to change body position quickly whilst in full control; a blend of speed and coordination. 3. Balance — ability to exercise precise control over body position and movement. 4. Coordination — ability to integrate all components of fitness so effective movements are achieved. 5. Reaction time — speed at which one can respond to a stimulus. 6. Speed — rate of motion; distance travelled per unit of time."
+            },
+            {
+              "name": "Factors affecting health and skill-related fitness",
+              "content": "Factors listed in transcript: nutrition, current training, medical history, age, genetics (e.g. predisposition to squatting, deadlifting, running or weightlifting), gender (impacts endocrine/hormone system), training history, lifestyle factors (smoking, drinking, daily activity such as dog walking), recovery and sleep, stress levels (family, work). All of these affect how well you can impact a client's health and skill-related fitness levels."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "section": "Section 3",
+          "title": "Applying principles and variables of fitness to a programme",
+          "difficulty": "foundation",
+          "concept": "How a gym instructor plans a programme helps clients develop health and skill-related fitness and achieve their goals safely. In-depth programme design is best left to a PT, but a basic programme is a must for any qualified instructor. All good programme design starts with a consultation.",
+          "key_terms": [
+            "specificity",
+            "progressive overload",
+            "reversibility",
+            "recovery",
+            "adaptability",
+            "individuality",
+            "FITT principles",
+            "frequency",
+            "intensity",
+            "time",
+            "type",
+            "overreaching",
+            "deload",
+            "time under tension",
+            "TUT",
+            "concentric",
+            "eccentric"
+          ],
+          "sub_topics": [
+            {
+              "name": "Specificity",
+              "content": "Programme must be designed around what the client wants to achieve. Example from transcript: if they want to do a pull-up, doing a leg press won't help — eccentric pull-ups or lat pulldowns would be more appropriate. Train the relevant muscle fibres and neural pathways accordingly."
+            },
+            {
+              "name": "Progressive overload",
+              "content": "A method of strength and hypertrophy training that advocates for gradual increase of stress placed upon the musculoskeletal and nervous system. Continual increase in total workload stimulates muscle growth and strength gain. Intensity, frequency and duration can all be amended. Example: for bicep curls — increase intensity by adding weight, increase frequency by training twice instead of once per week, increase duration by adjusting tempo or rep range."
+            },
+            {
+              "name": "Reversibility",
+              "content": "Fitness gains cannot be stored. When training stops, fitness begins to decline. Important to encourage clients to continue exercising even while on holiday or after reaching a goal. Momentum is easier to maintain than to rebuild."
+            },
+            {
+              "name": "Recovery",
+              "content": "Adaptations do not occur from the training stimulus itself — they occur during recovery: rest, sleep, eating, hydration. Overtraining is common with new gym members. Educate clients on the importance of rest periods so adaptations can take place."
+            },
+            {
+              "name": "Adaptability",
+              "content": "There will be times when a client can't do the exact programmed exercise — the gym is busy, a machine is taken. There is flexibility within training to account for this. Example: if the leg press is taken by teenagers on their phones, alternatives include goblet squat, barbell back squat, or dumbbell lunges. Deviating from one exercise for one session is not the end of the world."
+            },
+            {
+              "name": "Individuality",
+              "content": "Make programmes personal to each client's needs and abilities. Even two clients with the same goal will progress at different rates due to genetics, age, stress and other factors. Never produce cookie-cutter programmes — the same programme given to multiple different clients is not appropriate."
+            },
+            {
+              "name": "FITT principles",
+              "content": "Every gym instructor should follow FITT when putting together a client programme. F = Frequency: how often per week. I = Intensity: how hard, depending on goal and current ability. T = Time: how long per session, depending on availability and goal timeline. T = Type: what type of exercise, depending on client likes and dislikes."
+            },
+            {
+              "name": "Progressive programming with FITT",
+              "content": "Only progress one FITT principle at a time to avoid overtraining and injury. For beginners: start with one session per week (or one muscle group per week) to build confidence, then gradually increase frequency. If a client is already training at the recommended frequency, focus on increasing intensity before changing frequency. When exercising as often and intensely as possible, vary the training type to maintain progress."
+            },
+            {
+              "name": "Overreaching and deload",
+              "content": "Warning signs that a client may be overreaching: constant illness, lack of progress, irritability, poor sleep, digestive issues, general unhappiness. If these occur: regress the training plan, suggest a break or a deload week (go through the motions, do more steps, mobility work, sports massage). In severe cases of overtraining syndrome, refer to a medical expert — it can impact hormonal panels, fertility, and menstrual cycles."
+            },
+            {
+              "name": "Speed and tempo in resistance training",
+              "content": "Normal lifting pace: 2 seconds concentric (upward phase), 4 seconds eccentric (lowering phase). Example: 2 seconds up on a bicep curl, 4 seconds down. Faster pace increases power. Slower pace increases time under tension (TUT), which intensifies the workout. Improper form due to excessive speed can lead to injury and inefficient muscle engagement."
+            },
+            {
+              "name": "Levers, load and gravity",
+              "content": "Increasing the load away from the fulcrum lengthens the lever and intensifies the exercise. Example: on an abdominal curl, hands on thighs = easiest, hands on chest = harder, hands overhead = hardest. Adding a weight increases load further. Gravity makes the eccentric phase of any exercise relatively easier — pushing against gravity (e.g. standing from a squat) is harder because you are fighting both the resistance and gravity."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "section": "Section 4",
+          "title": "Contraindications and special populations",
+          "difficulty": "intermediate",
+          "concept": "Working with special populations can be challenging at level 2 due to the need for specific qualifications. You may encounter these clients in the gym, so it is important to know how to help them within your qualification. Always prioritise client safety and refer to a more qualified colleague if unsure. Never be afraid to reach out for help.",
+          "key_terms": [
+            "contraindications",
+            "GP consent",
+            "special populations",
+            "scope of practice",
+            "antenatal",
+            "postnatal",
+            "prenatal",
+            "relaxin",
+            "Osgood-Schlatter",
+            "kyphosis",
+            "lordosis",
+            "supine",
+            "prone",
+            "foetal hypoxia"
+          ],
+          "sub_topics": [
+            {
+              "name": "Social issues / gym anxiety",
+              "content": "The tutor describes this as probably the most common special population seen in a gym — and not one that will appear on medical notes. Some people find the gym very intimidating. Suggestions: take them round at quiet times, or meet them there. Avoid exercises that put them on display (e.g. a stairmaster in the centre of the gym) — instead use an exercise bike tucked away in a corner. Gyms can be a social space for lonely individuals. This may be one of their few opportunities to leave the house — always support and encourage, foster a welcoming and positive environment."
+            },
+            {
+              "name": "Older adults (50+)",
+              "content": "The tutor notes some individuals in their late 60s/early 70s run 3-hour marathons — do not usher a 52-year-old around as if they are very frail, take this with a pinch of salt. GP consent is always recommended, particularly for new members or those on medication. Key considerations: avoid unstable exercises if balance is an issue (e.g. change a multidirectional lunge to a static lunge or squat); tendons and ligaments are not as strong — keep joints stable; bones can be more porous — avoid high impact if this is the case, but do encourage weight bearing exercise; older skin takes longer to heal and is prone to bruising and infection — avoid sharp edges of machines on bare skin; hearing and vision can be impaired — speak clearly and use simple terminology; may be more prone to kyphotic posture — seated fixed machines may be more appropriate; avoid excessive floor work if spinal or blood pressure issues exist; check for medication — GP consent required if medication produces a negative response on a PAR-Q; encourage adequate nutrition and hydration to avoid fainting or dizziness; extend warm up and cool down length."
+            },
+            {
+              "name": "Pre and postnatal",
+              "content": "GP or midwife consent is imperative for both antenatal (prenatal) and postnatal clients. Key considerations: the hormone relaxin is secreted during pregnancy to increase mobility in cartilage and joints — proceed with caution for up to a year postpartum; avoid impact exercises as joints may be looser and miscarriage risk is higher in the first trimester (first 12 weeks); postnatal clients should also avoid impact while uterus and pelvis are repairing, especially after C-section; overheating is more serious during pregnancy as the foetus has a set temperature — encourage hydration, loose clothing, and regress the session if hot or humid; extend warm up and cool down; lordosis can present as the bump grows — protect the spine; forward flexion can be problematic as the bump restricts it; prone work must be avoided with antenatal clients as the bump grows; supine work should be avoided after 16 weeks as it can be fatal; balance and spatial awareness can be impacted; avoid isometric exercises, Valsalva, overhead pressing and heavy lifting to prevent foetal hypoxia; if someone exercised at a given standard before pregnancy they can generally continue through the first two trimesters safely with adaptations. Stop exercise and seek medical advice immediately if: dizziness, fainting, nausea, bleeding or fluid loss from the groin, abdominal/back/pelvis/groin pain, calf or leg pain, excessive shortness of breath, chest pain, palpitations or racing pulse."
+            },
+            {
+              "name": "Young people",
+              "content": "Heavy lifting (e.g. 2-3 rep max deadlifts) should be avoided as bones are still growing — use bodyweight alternatives or fixed machines to encourage positive adaptations without affecting growth plates. Osgood-Schlatter disease: pain below the kneecap between the patella and top of the tibia, worsens with repetitive exercise — find alternatives for triggering movements. Monitor behaviour — provide good education and ensure safety without acting as a parent; escalate to management if behaviour continues to impact other members. Encourage a healthy lifestyle but discourage an unhealthy relationship with exercise or overtraining. Flexibility can be increased in some teenagers due to laxity in tendons and ligaments — limit developmental stretching and avoid exercises with very large ranges of movement. Educate on hydration and nutrition. Monitor intensity carefully. Extend warm up and cool down. Frequently remind about posture and technique. Some machines are designed for adults — if a client is smaller in frame or height, certain machines may not be appropriate."
+            },
+            {
+              "name": "Disabled clients",
+              "content": "May require GP consent before induction. May have balance issues — provide stable exercises and alternatives. Noise and light can impact sensory-based disabilities (e.g. epilepsy) — consider quieter times or lower music volume. Monitor and correct technique to prevent injury. Posture can be a problem — seated or fixed machines may keep the spine more neutral and take the client through a single plane of movement safely. Adapt exercises based on the disability (example from transcript: client in a wheelchair wanting to train biceps — do dumbbell curls rather than trying to get them into a seated machine). If the client requires a carer or companion, make sure the carer is also inducted. Explore the gym with the client to identify accessibility issues — ramps, stairs, fire exits. Inform visually impaired clients of any layout changes. If a client has a mental disability, be more creative with the induction and reduce the number of exercises shown at once. Be aware of medication in case of emergency — the whole team should know. The tutor adds: many people in the disability category were previously very active — do not mollycoddle them. Ask if there is anything they need and let them crack on if not."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "section": "Section 5",
+          "title": "Monitoring exercise intensity",
+          "difficulty": "foundation",
+          "concept": "There are several ways to monitor intensity during exercise. As an instructor it is important to learn and educate clients about these to keep them safe. Some techniques are better than others depending on the exercise and situation.",
+          "key_terms": [
+            "RPE",
+            "rate of perceived exertion",
+            "heart rate monitoring",
+            "maximum heart rate",
+            "beats per minute",
+            "BPM",
+            "talk test",
+            "time under tension",
+            "training zone"
+          ],
+          "sub_topics": [
+            {
+              "name": "Rate of Perceived Exertion (RPE)",
+              "content": "The modified RPE scale runs from 0 (at rest) to 10. Benefits: inexpensive and easy to use, allows personalisation of intensity adjustments, effective for individuals and group settings. Limitations: relies on the client's subjective reporting which may be unreliable. Example: a client on an upright bike saying she is an 8/10 when she might actually be a 3 or 4 — you cannot call that out. Explain the scale to clients beforehand and allow them to use it regularly. As a guide: 1-4 = warm up zone, still able to hold a full conversation; 7-8 = broken conversation; 8.5 and above = unlikely to want to talk. The tutor notes RPE works very well for CV but is quite subjective for resistance training — harder for a new member to gauge RPE on a set of 10 bicep curls."
+            },
+            {
+              "name": "Heart rate monitoring",
+              "content": "Provides accurate real-time tracking of exercise intensity via beats per minute. Allows sessions to be tailored to specific percentages of maximum heart rate. Limitations: requires initial setup with calculations, may require a financial investment (heart rate strap, watch, or other technology). Formula stated in transcript: 220 minus age = maximum heart rate (X). X multiplied by target percentage = XX. XX divided by 100 = working BPM. Example from transcript: 30-year-old working at 80% — 220 minus 30 = 190. 190 multiplied by 80 = 15,200. 15,200 divided by 100 = 152 BPM target."
+            },
+            {
+              "name": "Talk test",
+              "content": "The easiest method — zero equipment required. The client does not even need to know you are using it. Assess the client's comfort with speech by engaging them in conversation during exercise. Difficulty speaking indicates they are struggling to meet their oxygen demands. As fitness improves they will be able to talk more freely for longer. Builds rapport particularly with nervous clients. Limitation: lacks measurability and is usually more applicable to one-to-one rather than group settings."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "section": "Section 6",
+          "title": "Health benefits of physical activity and a healthy lifestyle",
+          "difficulty": "foundation",
+          "concept": "Following a balanced exercise programme has many benefits. The NHS reports a continued rise in health issues that could be reduced by following a healthier lifestyle.",
+          "key_terms": [
+            "body composition",
+            "type 2 diabetes",
+            "hypertension",
+            "coronary heart disease",
+            "CHD",
+            "HDL",
+            "LDL",
+            "osteoporosis",
+            "osteoblasts",
+            "BMI",
+            "obesogenic environment",
+            "cortisol",
+            "endorphins",
+            "circadian rhythm"
+          ],
+          "sub_topics": [
+            {
+              "name": "Benefits of exercise listed in transcript",
+              "content": "Better posture — strengthens muscles supporting the spine, enhances mood, reduces injury rates. Poor posture (e.g. rounded shoulders) can lead to back pain, spinal dysfunction and joint deterioration. Improved body composition — calories used to fuel exercise; muscle mass increases. Reduced risk of type 2 diabetes — reducing BMI improves insulin sensitivity. Reduced hypertension and high blood pressure via cardiovascular fitness. Prevention of heart disease — cardiovascular fitness promotes a healthy balance between HDL and LDL cholesterol. Improved function and capacity for movement, burning more calories and boosting energy levels and self-esteem. Stronger muscles and bones — can reduce risk of hip and bone fractures as we age. Neurological improvements — exercise encourages better sleep, better coordination, improved memory, improved CNS and PNS function. Activities of daily living become easier, especially with age."
+            },
+            {
+              "name": "Exercise and disease — relationships stated in transcript",
+              "content": "Coronary heart disease (CHD): exercise lowers blood pressure, puts less strain on arterial tissue, improves lipid profile, reduces overall LDL cholesterol, improves blood flow through arteries. Some cancers (e.g. breast): linked to high levels of body fat — maintaining healthy body composition through exercise can reduce likelihood. Type 2 diabetes: exercise helps maintain healthy body weight, reduces visceral fat around organs that impairs insulin production and releases, and reduces exogenous insulin dependence. Hypertension: exercise strengthens the heart and lowers blood pressure, promotes healthier blood vessels. Obesity: exercise requires energy — burning more than consumed helps maintain healthier body mass. The tutor states: since 1993, the percentage of adults in England who are overweight or obese has risen from 53% to 64%, and obesity rates have risen from 15% to 28%. Osteoporosis: impact and weight bearing exercises stress the bones, stimulating osteoblasts to build bone mineral density."
+            },
+            {
+              "name": "Healthy lifestyle factors listed in transcript",
+              "content": "Alcohol in moderation — provides 7 kcal per gram, can impair neurological function, causes dehydration, increased blood sugar, promotes insulin sensitivity; long term excessive use damages organs and is linked to cancers of the mouth, liver and pancreas. Avoiding smoking — poisons in cigarette smoke cause cancer, increase chances of lung and heart disease by damaging arterial tissue, can cause irreparable lung damage. Eating a balanced diet. Staying hydrated. Adequate sleep and rest — important for both physical and mental health. Avoiding stress — can cause heart disease and increased cholesterol levels; encourage adequate cool downs to return cortisol levels to normal. Irregular work schedules and night shifts can affect circadian rhythm, causing fatigue and increased injury risk."
+            },
+            {
+              "name": "Obesogenic environment",
+              "content": "Modern society creates an obesogenic environment with convenient sedentary lifestyles and easy access to unhealthy foods — increased technology use, less physical activity, larger food portions. UK statistics from the transcript: obesity most prevalent in deprived and low socioeconomic groups; children in the most deprived areas are more than twice as likely to be obese as peers in the richest areas; 3.4 million adults consume an additional day's worth of calories per week from alcohol; one in three children leave primary school overweight or with obesity; overweight and obesity-related conditions cost the NHS around £6.1 billion per year; up to 80% of adults do not know the calorie intake of common drinks."
+            },
+            {
+              "name": "Technology and wellness",
+              "content": "At least 40% of people wear smart watches or fitness bands. Encourage clients to use these tools wisely — apps can help monitor calorie intake or daily steps. Maintain a healthy balance — the tutor notes some people can become obsessive about completing rings on Apple watches. Wearables mentioned: Fitbits, Apple watches, Whoop bands. Apps mentioned: MyFitnessPal for logging food intake. General health and step tracking apps are built into most phones."
+            },
+            {
+              "name": "Exercise and stress reduction",
+              "content": "Exercise is essential for the brain as it is the heart. Regular exercise reduces stress hormones cortisol and adrenaline, whilst promoting endorphin production, leading to improved mood and the runner's high. Clinical trials have successfully used exercise to treat clinical depression and anxiety disorders. Stress can manifest as: psychological symptoms (anxiety, irritability, restlessness) and physical symptoms (muscle tension, digestive issues, IBS, rapid heartbeat, hyperventilation). Relaxation techniques mentioned: meditation, mindfulness, breathing, diaphragmatic breathing exercises. Benefits of relaxation techniques: lower blood pressure, slower breathing, improved digestion and blood sugar control, reduced stress hormone activity, better blood flow to muscles, less tension and chronic pain."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "section": "Section 7",
+          "title": "The importance of healthy eating",
+          "difficulty": "foundation",
+          "concept": "Gym instructors can only offer basic healthy eating advice based on the national food model — the Eatwell Guide. For anything more specialised or tailored, refer to a nutritionist, dietician, or PT. Always keep personal views and dietary preferences to one side and stick to professional boundaries.",
+          "key_terms": [
+            "Eatwell Guide",
+            "macronutrients",
+            "micronutrients",
+            "carbohydrates",
+            "protein",
+            "fats",
+            "energy balance",
+            "calories",
+            "saturated fat",
+            "traffic light system",
+            "energy expenditure",
+            "amino acids",
+            "insulin sensitivity"
+          ],
+          "sub_topics": [
+            {
+              "name": "The Eatwell Guide",
+              "content": "Updated in 2016. A visual representation of daily nutrition requirements. Components described in the transcript: Traffic light system — red/amber/green colour coding on food packaging to help people make quick decisions; Fluid intake (top right) — 6 to 8 glasses per day of water, low fat milk, sugar free drinks, including tea and coffee. The tutor states the diuretic effect of caffeine does not outweigh the fluid intake from the drink itself; Oils and spreads (bottom right) — use minimally, stick to more stable sources with a higher burning/smoke point for cooking; Eat less often (bottom left) — sweets, biscuits, pastries, crisps, chocolate, muffins, cookies (high fat and carbohydrate, very calorie dense); Fruit and vegetables — 5 to 7 portions per day as a minimum, must be from different sources (5 bananas = 1 portion, not 5); Carbohydrates — different wheats, pastas, bagels, rice, breads, potatoes; Dairy and alternatives — milks and yoghurts; Protein — chicken, fish, poultry, pulses, soy."
+            },
+            {
+              "name": "Healthy eating guidelines stated in transcript",
+              "content": "At least 5 portions of fruit and veg per day. At least one portion of oily fish per week. 6 to 8 glasses of fluid per day. Saturated fat limited to less than 30g per day for men, 20g for women. Salt intake below 6g per day — the tutor advises eating low sodium foods and adding salt yourself at the table rather than buying processed foods packed with sodium. Limit sugar intake to reduce insulin spikes and for dental health."
+            },
+            {
+              "name": "Macronutrients",
+              "content": "Three macronutrients: carbohydrates, proteins and fats. Carbohydrates: main source of energy, support bodily functions, energy and brain activity. Proteins: building blocks of muscle tissue responsible for growth and repair via amino acids. Fats: energy dense source available once carbohydrate stores are depleted; insulates the body; assists neural function and endocrine health."
+            },
+            {
+              "name": "Micronutrients",
+              "content": "Vitamins and minerals — come from eating a balanced, varied diet with lots of fruit and veg. If immune deficient, may lack vitamins and minerals, which can reduce ability to repair cells and cognitive function, as well as energy levels."
+            },
+            {
+              "name": "Energy balance equation",
+              "content": "To maintain current body weight: calories in = calories out. To lose weight: calories in must be less than calories out. To gain weight: calories in must exceed calories out. The tutor states: 'Weight control is as simple as that. There is no magic way to burn more or trick our bodies into restricting intake.' Even at rest, calories are being used — sitting upright uses more energy than lying flat."
+            },
+            {
+              "name": "Risks of poor nutrition",
+              "content": "Excessive body weight can cause: unnecessary load on the skeleton, fertility issues, increased risk of coronary heart disease, cancer, type 2 diabetes, increased blood pressure, cholesterol issues, digestive issues, poor body composition, reduced overall health. Very low body weight can cause: fertility issues, musculoskeletal damage, reduced organ function, reduced ability to repair cells, poor cognitive function, lack of energy, poor sleep, imbalanced body composition. Cutting out food groups entirely can lead to immune deficiency and lack of vitamins and minerals. Excessive fat, sugar and salt intake increases risk of disease and blood pressure issues."
+            },
+            {
+              "name": "Professional boundaries",
+              "content": "As a gym instructor you will face nutrition questions. Keep personal views and dietary preferences to one side. Stick to professional boundaries and offer basic Eatwell guidance only. For anything more specialised or tailored, refer to a nutritionist, dietician, or PT."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
