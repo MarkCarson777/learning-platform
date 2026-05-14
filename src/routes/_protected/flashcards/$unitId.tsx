@@ -7,5 +7,6 @@ export const Route = createFileRoute("/_protected/flashcards/$unitId")({
 
 function FlashcardsPage() {
   const { unitId } = Route.useParams();
+
   return <div>Flashcards: {unitId}</div>;
 }

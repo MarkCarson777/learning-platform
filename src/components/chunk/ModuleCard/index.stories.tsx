@@ -1,4 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   Outlet,
   RouterProvider,
@@ -13,6 +14,7 @@ const meta: Meta<typeof ModuleCard> = {
   component: ModuleCard,
   decorators: [
     (Story) => {
+      const queryClient = new QueryClient();
       const rootRoute = createRootRoute({
         component: Outlet,
       });
@@ -36,7 +38,11 @@ const meta: Meta<typeof ModuleCard> = {
         }),
       });
 
-      return <RouterProvider router={router} />;
+      return (
+        <QueryClientProvider client={queryClient}>
+          <RouterProvider router={router} />
+        </QueryClientProvider>
+      );
     },
   ],
 };
