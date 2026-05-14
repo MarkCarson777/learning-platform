@@ -1,25 +1,23 @@
 import { Link } from "@tanstack/react-router";
+import { useUnitsByModule } from "../../../hooks/useUnits";
 
-export const ModuleCard = ({ group }) => {
-  console.log("group", group);
+export const ModuleCard = ({ module }) => {
+  const { data: units } = useUnitsByModule(module.id);
 
-  const ModuleNameMap = {
-    "course-introduction": "Course Introduction",
-    "the-foundations": "The Foundations",
-  };
+  if (!units) return <div>Loading...</div>;
 
   return (
     <div className="border border-gray-200 rounded-md p-4">
-      <h2 className="text-red-500">{ModuleNameMap[group.groupId]}</h2>
+      <h2 className="font-bold">{module.name}</h2>
       <div className="flex flex-col gap-2">
-        {group.modules.map((module) => (
+        {units.map((unit, index) => (
           <Link
+            key={index}
             className="bg bg-gray-200 rounded-md p-4"
-            key={module.id}
-            to="/study/$moduleId"
-            params={{ moduleId: module.id }}
+            to="/study/$unitId"
+            params={{ unitId: unit.id }}
           >
-            {module.module}
+            {unit.name}
           </Link>
         ))}
       </div>

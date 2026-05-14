@@ -1,12 +1,12 @@
 /* eslint-disable react-refresh/only-export-components */
 import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute("/_protected/study/$moduleId")({
+export const Route = createFileRoute("/_protected/study/$unitId")({
   component: StudyPage,
 });
 
 function StudyPage() {
-  const { moduleId } = Route.useParams();
+  const { unitId } = Route.useParams();
 
-  return <div>Study: {moduleId}</div>;
+  return <div>Study: {unitId}</div>;
 }

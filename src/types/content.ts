@@ -1,4 +1,7 @@
 export type Difficulty = "foundation" | "intermediate" | "advanced";
+
+export type UnitType = "orientation" | "unit_introduction" | "teaching_content";
+
 export interface SubTopic {
   name: string;
   content: string;
@@ -23,6 +26,8 @@ export interface Unit {
   id: string;
   name: string;
   moduleId: string;
+  courseId: string;
+  type: UnitType;
   order: number;
   chunks: Chunk[];
 }
@@ -30,6 +35,7 @@ export interface Unit {
 export interface Module {
   id: string;
   name: string;
+  courseId: string;
   order: number;
   unitIds: string[];
 }
