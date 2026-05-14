@@ -20,6 +20,7 @@ export const groupModules = (modules: Module[]): ModuleGroup[] => {
 
   return Object.entries(grouped).map(([groupId, modules]) => ({
     groupId,
+
     modules: modules.sort(
       (a, b) => (a.moduleGroupOrder ?? 0) - (b.moduleGroupOrder ?? 0),
     ),
