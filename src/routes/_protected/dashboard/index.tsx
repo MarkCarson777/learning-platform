@@ -4,6 +4,7 @@ import { useAuth } from "../../../context/AuthContext";
 import { useModules } from "../../../hooks/useModules";
 import { ModuleCard } from "../../../components/chunk/ModuleCard";
 import { groupModules } from "../../../lib/groupModules";
+import { DashboardCard } from "../../../components/ui/DashboardCard";
 
 export const Route = createFileRoute("/_protected/dashboard/")({
   component: DashboardPage,
@@ -24,13 +25,13 @@ function DashboardPage() {
       </div>
       <h1>Welcome back, {user.displayName}</h1>
       <p>Level 3 PT Diploma</p>
-      <div className="grid grid-cols-2">
-        <div>{groupModules(modules).length} Modules</div>
-        <div>3 Lectures</div>
-        <div>16 Sections</div>
-        <div>59 Flashcards</div>
+      <div className="grid grid-cols-4">
+        <DashboardCard count={groupModules(modules).length} label="Modules" />
+        <DashboardCard count={3} label="Lectures" />
+        <DashboardCard count={16} label="Sections" />
+        <DashboardCard count={59} label="Flashcards" />
       </div>
-      <h2>Modules & Lectures</h2>
+      <h2>Course Content</h2>
       <div className="grid grid-cols-1">
         {groupModules(modules).map((group) => (
           <div key={group.groupId}>

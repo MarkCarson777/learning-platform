@@ -1,10 +1,10 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-import { Button } from "./index";
+import { DashboardCard } from "./index";
 
 const meta = {
-  title: "UI/Button",
-  component: Button,
-} satisfies Meta<typeof Button>;
+  title: "UI/DashboardCard",
+  component: DashboardCard,
+} satisfies Meta<typeof DashboardCard>;
 
 export default meta;
 
@@ -12,7 +12,7 @@ type Story = StoryObj<typeof meta>;
 
 export const Default: Story = {
   args: {
-    onClick: () => {},
-    children: "Click me",
+    count: 10,
+    label: "Modules",
   },
 };
